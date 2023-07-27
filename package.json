@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "name": "astro-edgio-v7",
+  "type": "module",
+  "version": "0.0.1",
+  "dependencies": {
+    "@astrojs/node": "^5.3.0",
+    "astro": "^2.9.3"
+  },
+  "devDependencies": {
+    "@edgio/astro": "^7.0.30",
+    "@edgio/cli": "^7.0.30",
+    "@edgio/core": "^7.0.30",
+    "@edgio/devtools": "^7.0.30",
+    "@edgio/prefetch": "^7.0.30"
+  }
+}
